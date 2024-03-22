@@ -81,7 +81,7 @@ IMAGE --> -->
 
 Another popular method of regressing 3d pose from 2d images is through the extraction of intermediate geometric representation. The best performing model of this class is the Ego-Net from 2021 [2]. This class of model is also similar to Deep3DBox, as they both try to regress 3d pose from 2d images.
 
-
+<!-- 
 ### Past works
 Many previous models attempt to directly map 2d pixels to angular representation of 3d poses. The drawbacks of these previous models is that local appearance alone in a 2d image is not sufficient to determine vehicle pose. 
 
@@ -90,10 +90,10 @@ Many previous models attempt to directly map 2d pixels to angular representation
 <!-- ![EGO2]({{ '/assets/images/32/ego2.png' | relative_url }})
 {: style="width: 400px; max-width: 100%;"} -->
 
-Furthermore, extracting 3d pose directly from 2d pixels is a highly non-linear and difficult problem. 
+<!-- Furthermore, extracting 3d pose directly from 2d pixels is a highly non-linear and difficult problem. 
 
 ![EGO4]({{ '/assets/images/32/ego3.png' | relative_url }})
-{: style="width: 400px; max-width: 100%;"}
+{: style="width: 400px; max-width: 100%;"} -->
 
 ### IGR
 
@@ -179,7 +179,7 @@ necessary correction to θray (column 2), and dimensions based on the ITTI objec
 {: style="width: 400px; max-width: 100%;"}
 
 
-### Multi bin Loss Function
+### Multibin Loss Function
 
 Orientation Loss:
 
